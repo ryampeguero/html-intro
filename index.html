@@ -1,18 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Titoli -->
     <!-- h1 dev'essere unico in pagina -->
-    <h1>Titolo1</h1>
-    <h2>Titolo2</h2>
-    <h3>Titolo3</h3>
-    <h4>Titolo4</h4>
-    <h5>Titolo5</h5>
-    <h6>Titolo6</h6>
+    <div>
+        <h1>Titolo1</h1>
+        <h2>Titolo2</h2>
+        <h3>Titolo3</h3>
+        <h4>Titolo4</h4>
+        <h5>Titolo5</h5>
+        <h6>Titolo6</h6>
+    </div>
+
+    <!-- Paragraph -->
+    <!-- Per semantica -->
+    <!-- Strong sostituisce il tag b -->
+    <!-- em sostituisce il tag i -->
+
+    <section>
+        <h2>Paragraph, em and strong tags</h2>
+        <div>
+            <p>
+                Lorem ipsum dolor sit <strong>amet</strong> consectetur adipisicing elit. Reprehenderit molestiae eius
+                consequatur voluptatum! Fuga nobis repellat, cum praesentium ipsa corrupti cupiditate, modi,
+                <em>dignissimos</em> dolorum dolor aspernatur blanditiis? Debitis, perferendis ad.
+            </p>
+
+            <p>
+                Dovete assolutamente <strong>scrivere bene</strong> i messaggi del commit
+            </p>
+        </div>
+    </section>
+    <hr>
+    <!--  hr e br sono self closing tags -->
+
+    <img src="img/montagna.jpg" alt="Montagna con neve">
+
+    <hr>
+
+    <!-- Bottoni e link -->
+    <!-- Anchor (a) tag per link su una pagina -->
+    <a href="https://www.google.com/">Vedi questo contenuto</a>
+
+    <button>Click me</button>
+
+    <!-- Esempio tabella -->
+    <section>
+        <h2>Tag Table</h2>
+
+        <table>
+            <!-- Intestazione della tabella -->
+            <thead>
+                <tr>
+                    <th>Numero</th>
+                    <th>Data di partenza</th>
+                    <th>Num. Studenti</th>
+                </tr>
+            </thead>
+            
+            <!-- Contenuto della tabella  -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>01/02/2021</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>07/02/2021</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+
+            <!-- Chiusura della tabella  -->
+            <tfoot>
+                <tr>
+                    <td colspan="2">Totale studenti</td>
+                    <!-- <td></td> Meglio non lasciare celle vuote-->
+                    <td>64</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </section>
+
+    <!-- Esempio della lista -->
+    <section>
+        <h2>List tags</h2>
+
+        <!-- Lista ordinata  -->
+        <!--  order list primo discendete dev'essere <li> -->
+        <ol>
+            <li>
+                <h4>Item 1</h4>
+            </li>
+            <li>
+                Item 2
+            </li>
+            <li>
+                Item 3
+            </li>
+        </ol>
+
+        <!-- Lista non ordinata  -->
+        <!-- unordered list  -->
+        <ul>
+            <li>
+                Item 1 
+            </li>
+            <li>
+                Item 2
+            </li>
+            <li>
+                Item 3
+            </li>    
+        </ul>
+
+        <!-- Lista annidata  -->
+        <h3>Classi boolean</h3>
+        <!-- Lista del primo livello  -->
+        <ol>
+            <li>
+                <h4>Classe 107</h4>
+                <ul>
+                    <li>Pippo</li>
+                    <li>Pippa</li>
+                    <li>Pippu</li>
+                </ul>    
+            </li>
+
+            <li>
+                <h4>Classe 108</h4>
+                <ul>
+                    <li>Mario</li>
+                    <li>Maria</li>
+                    <li>Pippu</li>
+                </ul>    
+            </li>
+
+            <li>
+                <h4>Classe 109</h4>
+                <ul>
+                    <li>Timo</li>
+                    <li>Dina</li>
+                    <li>Clark</li>
+                </ul>    
+            </li>
+        </ol>
+    </section>
 </body>
+
 </html>
